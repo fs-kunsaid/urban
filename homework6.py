@@ -5,7 +5,7 @@ print(my_dict['Max'])
 print(my_dict.get('Elena', 'Такого значения нет'))
 my_dict.update({'Elena': 1945, 'Ivan': 1990})
 print(my_dict)
-del my_dict['Ben']
+my_dict.pop('Ben')
 print(my_dict)
 # Множество
 my_set = {5, 8, 13, 21, True, 8, 21, False, 13, 34}
